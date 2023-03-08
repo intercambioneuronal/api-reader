@@ -1,0 +1,32 @@
+export const conversiones=[
+    {
+        tipo:"propiedades",etiqueta:"ul",clase:"property-list"
+    },
+    {
+        tipo:"propiedad",etiqueta:"li",clase:"property-key"
+    },
+    {
+        tipo:"nombrePropiedad",etiqueta:"property",clase:"clickable2"
+    },
+    {
+        tipo:"valorPropiedad",etiqueta:"dataProperty",clase:"hide2"
+    },
+    {
+        tipo:"elementos",etiqueta:"ol",clase:"items-list"
+    },
+    {
+        tipo:"elemento",etiqueta:"li",clase:"item"
+    },
+    {
+        tipo:"indiceElemento",etiqueta:"property",clase:"clickable2"
+    },
+    {
+        tipo:"valorElemento",etiqueta:"dataProperty",clase:"hide2"
+    },
+    {
+        tipo:"contador",etiqueta:"counter",clase:"content"
+    }
+]
+export const emptyTags=[
+    "img","br","hr","area","embed","input","source"
+]

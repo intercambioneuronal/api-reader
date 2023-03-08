@@ -1,0 +1,14 @@
+<%- include('header.ejs') %>
+
+<body>
+    
+    <form action="/" method="post">
+        <h1>API Reader</h1><i class="iconed"></i>
+        <input type="text" class="search" name="url" id="url"/>
+        <button type="submit" class="button-10" id="mostrar" >Mostrar</button>         
+    </form>
+    <div id="history">
+        <a href="/history">Apis visitadas</a>
+    </div>
+</body>
+<%- include('footer.ejs') %>

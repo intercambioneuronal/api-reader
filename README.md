@@ -1,0 +1,1 @@
+This app gives a preview of the data fetched from an api

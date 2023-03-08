@@ -1,0 +1,16 @@
+.hide{
+    display: none;
+    -moz-transition:height 1s linear 0s;
+    -webkit-transition: height 1s linear 0s;
+    transition: height 1s linear 0s;
+}
+.clickable{
+    cursor:pointer
+}
+ul,ol{
+    list-style-type: none;
+}
+.property-key{
+    display: flex;
+    flex-direction: column;
+}

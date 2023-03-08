@@ -1,0 +1,19 @@
+<%- include('header.ejs') %>
+
+<body>
+    <div class="goHome">
+    Buscar otra <a href="/"><i class="searchIcon"></i></a>
+    <div class="message"><%= message %></div>
+    </div>
+    
+<ul id="contentApi" class="tree">
+    <li>
+        <details open>
+            <summary>JSON</summary>
+            <%- results %>
+        </details>        
+    <li>    
+</div>
+<script src="/scripts/events.js"></script>
+</body>
+<%- include('footer.ejs') %>
