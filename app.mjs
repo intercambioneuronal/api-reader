@@ -1,4 +1,5 @@
 import express from 'express';
+import { PORT } from './config.js';
 import { router } from './router.mjs'; 
 
 const app= express()
@@ -9,7 +10,7 @@ app.use(express.urlencoded({extended:false}));
 app.use(express("json"))
 app.use('/',router);
 
-app.listen(5000,()=>{
+app.listen(PORT,()=>{
     console.log("server corriendo")
 })
 
